@@ -1,0 +1,6 @@
+@import url('normalize.css');
+@import url('default.css');
+@import url('settings.css');
+@import url('var.css');
+@import url('blocks/header.css');
+@import url('blocks/products-menu.css');

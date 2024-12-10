@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after{
+   box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.page__body{
+  font-family: "cuprum" sans-serif;
+  color:#48555B;
+
+
+}
+
+.list-reset{
+  margin: 0;
+   padding: 0;
+  list-style: 0;
+}
+
+.btn-reset{
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor:pointer;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.btn-reset{
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor:pointer;
+}
+.visually-hidden{
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+a {
+  transition: all.4s;
+}
+@font-face {
+  font-family: cuprumbold;
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local(cuprumbold),
+    local("cuprum Bold"),
+    url(../../fonts/cuprumbold.woff) format("woff"),url(../../fonts/cuprumbold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: cuprum;
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local(cuprum),
+    local("cuprum"),
+    url(../../fonts/cuprum.woff) format("woff"), url(../../fonts/cuprum.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: cuprumitalic;
+  font-weight: 400;
+  font-style: italic;
+  src:
+    local(cuprumitalic),
+    local("cuprumitalic"),
+    url(../../fonts/cuprumitalic.woff) format("woff"), url(../../fonts/cuprumitalic.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: AgoraSansProBold;
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local(AgoraSansProBold),
+    local("AgoraSansPro Bold"),
+    url(../../fonts/AgoraSansProBold.woff) format("woff"),url(../../fonts/AgoraSansProBold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: PTSans-Bold;
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local("PTSans-Bold"),
+    local("PTSans BoldItalic"),
+    url(../../fonts/PTSans-Bold.woff) format("woff"),url(../../fonts/PTSans-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  font-weight:400;
+  font-style: normal;
+  src:
+    local("AgoraSansProBold"),
+    local("AgoraSansPro-Bold"),
+    url(../../fonts/PTSans-Regular.woff) format("woff"),url(../../fonts/PTSans-Regular.ttf) format("ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: PTSans-Bold;
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local("PTSans-Italic"),
+    local("PTSans-Italic"),
+    url(../../fonts/PTSans-Italic.ttf) format("ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "ScalaSansOT-Black";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local("ScalaSansOT-Black"),
+    local("ScalaSansOTBlack"),
+    url(../../fonts/ScalaSansOT-Black.otf) format("otf");
+  font-display: swap;
+}

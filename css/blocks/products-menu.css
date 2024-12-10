@@ -1,0 +1,52 @@
+.products-wrapper {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.products__list {
+  display: flex;
+  justify-content: space-between;
+}
+.products__item {
+  width: 300px;
+  height: 125px;
+  position: relative;
+  background-color: yellow;
+
+
+}
+.products__descr {
+  width: 135px;
+  color: #fff;
+  padding-top: 28px;
+  padding-left: 24px;
+}
+.products__descr-title {
+  padding-bottom: 20px;
+
+}
+.products__link {
+  text-decoration: none;
+  font-family: cuprumbold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+.products__descr-subtitle {
+  background-color: #e5ac40;
+  font-family: cuprumbold;
+  font-size: 18px;
+  line-height: 14px;
+}
+.products__label-new {
+  position: absolute;
+  top:0;
+  right: 0;
+  color: #fff;
+}
+
+.products {
+}
+.products--tools {
+}
+.products--tecknic {
+}

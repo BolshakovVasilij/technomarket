@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technomarket</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="icons/favicon/site.webmanifest">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="page__body">
+  <header class="header">
+      <h1 class="visually-hidden">Шапка сайта</h1>
+      <div class="header-top">
+        <div class="container">
+          <div class="header-wrapper">
+            <h2 class="visually-hidden">Логотип и Форма оформления заказа</h2>
+            <div class="logo">Техномаркет</div>
+            <form action="" method="get" class="header-top-form">
+              <ul class="header-top-form-list">
+                <li class="header-top-form-item">
+                  <div class="form-header-block">
+                    <label class="visually-hidden" for="search-product">Поле поиска</label>
+                    <div class="form-icon">
+                      <!-- <img src="icons/icon-search.svg" alt="поиск"> -->
+                    </div>
+                    <div class="search-wrapper">
+                      <input class="search"  name="search-product" id="search-product" type="search" placeholder="Поиск:">
+                      <button class="visually-hidden search-btn"></button>
+                    </div>
+                  </div>
+                </li>
+                <li class="form-header-item">
+                  <div class="form-header-block">
+                    <label class="visually-hidden" for="bookmark">Закладки</label>
+                    <button class="btn-reset bookmark-btn">Закладки</button>
+                    <input class="bookmark" name="bookmark" id="bookmark" type="text">
+                  </div>
+                </li>
+                <li class="form-header-item">
+                  <div class="form-header-block">
+                    <label class="visually-hidden" for="basket">Корзина</label>
+                    <button class="btn-reset basket-btn">Корзина</button>
+                    <input class="basket" name="basket" id="basket" type="text">
+                  </div>
+                </li>
+                <li class="form-header-item">
+                  <div class="form-header-block">
+                    <label class="visually-hidden" for="order">ОФормить заказ</label>
+                    <button class="btn-reset order-btn">Оформить заказ</button>
+                  </div>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+          <div class="container">
+              <h2 class="visually-hidden">Контактные данные и авторизация</h2>
+              <div class="header-bottom-contact">
+                <h2 class="visually-hidden">Меню сайта</h2>
+                <ul class="header-bottom-contact-list">
+                  <li class="header-bottom-form-item">
+                    <div class="header-bottom__descr">Интернет-магазин строительных материалов и инструментов для ремонта
+                    </div>
+                  </li>
+                  <li class="header-bottom-form-item">
+                    <div class="header-bottom-form-address">
+                      <label class="visually-hidden" for="phone">Телефон</label>
+                        <div class="form-phone">
+                          <p class="form-phone__number" id="phone">
+                            <a href="tel:+78125550555" class="form-phone__number-link">+7 (812) 555-05-55</a>
+                          </p>
+                        </div>
+                      <label class="visually-hidden" for="address">Адрес</label>
+                      <p class="address-subscribe">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                    </div>
+                  </li>
+                  <li class="header-bottom-form-item">
+                      <label class="visually-hidden" for="auth">Авторизация</label>
+                      <div class="auth-block">
+                        <button class="btn-auth enter">Войти</button>
+                        <button class="btn-auth reg">Регистрация</button>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      <div class="header-bottom-nav">
+          <div class="container">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="list-reset nav-item">
+                  <a href="#" class="nav-item-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Компания</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Каталог</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Новости</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Спецпредложения</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Доставка</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-item-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+      </div>
+  </header>
+<main class="main">
+<section class="products-menu">
+  <h2 class="visually-hidden">Продукты</h2>
+  <div class="container">
+    <div class="products-wrapper">
+      <ul class="products__list">
+        <li class="products__item">
+          <div class="products__descr">
+            <div class="products__descr-title">
+              <a href="#" class="products__link">Материалы</a>
+            </div>
+            <div class="products__descr-subtitle">На любой вкус
+            </div>
+          </div>
+          <div class="products__label-new">new</div>
+        </li>
+        <li class="products__item">
+          <div class="products__descr">
+            <div class="products__descr-title">
+              <a href="#" class="products__link">Инструмент</a>
+            </div>
+            <div class="products__descr-subtitle">На все случаи
+            </div>
+          </div>
+          <div class="products__label-new visually-hidden">new</div>
+        </li>
+        <li class="products__item">
+          <div class="products__descr">
+            <div class="products__descr-title">
+              <a href="#" class="products__link">Техника</a>
+            </div>
+            <div class="products__descr-subtitle">Для стройки
+            </div>
+          </div>
+          <div class="products__label-new visually-hidden">new</div>
+        </li>
+
+
+
+      </ul>
+
+
+      <!-- <div class="products products--materials">
+        <h3 class="visually-hidden">Материалы</h3>
+        <div class="products__item">
+          <div class="products__title">
+            
+          </div>
+        </div>
+      </div> -->
+      <div class="products products--tools">
+      </div>
+      <div class="products products--tecknic">
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+</body>
+</html>
